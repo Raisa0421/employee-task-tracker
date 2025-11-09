@@ -19,14 +19,6 @@ uvicorn app.main:app --reload.
 - python-dateutil
 - python-multipart
 
-##Screenshots
-![Dashboard](./screenshots/Dashboard.png)
-![Create Employee](./screenshots/create_employee.png)
-![Get Employee Details](./screenshots/get_employee_details.png)
-![Get Employee Task](./screenshots/get_employee_task.png)
-![Task Per Employee](./screenshots/task_per_employee.png)
-![Upcoming Task](./screenshots/upcoming_task.png)
-
 ## Assumptions / Bonus Features
 
 - Assumes that each task is assigned to a single employee.
