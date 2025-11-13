@@ -1,5 +1,5 @@
 from sqlalchemy.orm import Session
-from sqlalchemy.exc import IntegrityError  # ✅ <-- Add this line
+from sqlalchemy.exc import IntegrityError  
 from fastapi import HTTPException
 from app import models, schemas
 
